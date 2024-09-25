@@ -1,0 +1,70 @@
+.product-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.product-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  gap: 40px; /* Espace entre les colonnes */
+  margin-top: 20px;
+}
+
+.product-image {
+  flex: 1;
+  max-width: 50%; /* Utiliser 50% de la largeur pour l'image */
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-info {
+  flex: 1;
+  max-width: 50%; /* Utiliser 50% de la largeur pour les informations */
+  display: flex;
+  flex-direction: column; /* S'assure que les éléments s'empilent verticalement */
+}
+
+.product-info h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.product-info p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.product-info h3 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.buy-button {
+  background-color: #fdd90b;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Assure que le bouton de retour est en bas */
+.return-button {
+  margin-top: 100px; /* Positionne le bouton tout en bas de la colonne */
+  padding: 10px 20px;
+  background-color: #da001e;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}

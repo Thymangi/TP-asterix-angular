@@ -1,0 +1,24 @@
+<div class="product-page">
+  <div class="product-details">
+    <div class="product-image">
+      <img
+        [src]="'/assets/images/' + product.image"
+        alt="{{ product.name }}"
+        *ngIf="product"
+      />
+    </div>
+    <div class="product-info" *ngIf="product">
+      <h1>{{ product.name }}</h1>
+      <p>{{ product.description }}</p>
+      <h3>Prix : {{ product.price }} $</h3>
+      <p><strong>Détails : </strong>{{ product.details }}</p>
+      <button class="buy-button">Acheter</button>
+
+      <!-- Bouton pour retourner à la page d'accueil -->
+      <a routerLink="/" class="return-button">Voir toutes nos créations</a>
+    </div>
+    <div *ngIf="!product">
+      <p>Chargement du produit...</p>
+    </div>
+  </div>
+</div>

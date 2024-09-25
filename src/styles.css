@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+/* S'assure que la page prend au moins 100% de la hauteur de la fenêtre */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Comfortaa", sans-serif;
+  background-color: #f9d0a3;
+}
+.logo {
+  width: 100px; /* Ajuster la taille */
+  height: auto;
+}

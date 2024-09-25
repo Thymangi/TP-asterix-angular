@@ -1,0 +1,47 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 20px;
+  max-width: 900px;
+}
+
+.about-text {
+  width: 100%; /* Utiliser 100% de la largeur */
+  text-align: center;
+  margin: 40px 0;
+  padding: 20px;
+}
+
+.about-text h2 {
+  font-size: 3.5rem; /* Taille du titre ajustée pour un meilleur rendu */
+  font-weight: bold;
+  color: #da001e;
+  margin-bottom: 30px;
+}
+
+.about-image {
+  width: 80%; /* L'image occupe 80% de la largeur disponible */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.about-image img {
+  max-width: 100%; /* L'image occupe toute la largeur disponible */
+  max-height: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Effet d'ombre */
+}
+
+.about-text p {
+  font-size: 1.6rem; /* Ajustement de la taille du texte */
+  line-height: 2;
+  color: #151217;
+  max-width: 800px; /* Largeur maximale pour éviter des lignes trop longues */
+  margin: 0 auto;
+  text-align: justify; /* Justification du texte */
+  padding-bottom: 20px; /* Espacement supplémentaire pour la lisibilité */
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Astérix",
+    "price": 6.99,
+    "image": "asterix.png",
+    "description": "Figurine Astérix faites à la main",
+    "details": "Fabriqué à la main, en résine. Taille : 10 cm."
+  },
+  {
+    "id": "2",
+    "name": "Obélix",
+    "price": 8.99,
+    "image": "obelix.png",
+    "description": "Figurine Obélix faites à la main",
+    "details": "Fabriqué à la main, en résine. Taille : 10 cm."
+  },
+  {
+    "id": "3",
+    "name": "Panoramix",
+    "price": 4.99,
+    "image": "panoramix.png",
+    "description": "Figurine Idéfix faites à la main",
+    "details": "Fabriqué à la main, en résine. Taille : 10 cm."
+  }
+]

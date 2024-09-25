@@ -1,0 +1,34 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #da001e; /* Couleur jaune de votre charte graphique */
+  padding: 20px;
+  margin-bottom: 20px; /* Ajoutez de l'espace sous le header */
+  margin-top: 20px;
+  height: 100px; /* Hauteur totale du header */
+}
+
+header img {
+  height: 90%; /* Le logo occupe 90% de la hauteur du header */
+  max-height: 100%; /* Pour s'assurer qu'il ne dépasse pas la taille du header */
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #151217; /* Couleur de la charte */
+  font-family: "Bubbleboddy neue", sans-serif; /* Utilisez votre police */
+  margin: 0 15px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}

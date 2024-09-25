@@ -1,0 +1,39 @@
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 50px; /* Espace entre les icônes */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Pour centrer les icônes */
+  align-items: center;
+  gap: 20px; /* Espace entre les icônes */
+  margin-top: 20px; /* Espace au-dessus des icônes */
+}
+
+.social-icons img {
+  width: 40px; /* Taille des icônes */
+  height: 40px;
+  transition: transform 0.3s ease; /* Animation lors du survol */
+}
+
+.social-icons img:hover {
+  transform: scale(1.1); /* Agrandit légèrement l'icône au survol */
+}
+
+footer {
+  text-align: center;
+  background-color: #da001e;
+  padding: 20px 0;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 10px;
+}
